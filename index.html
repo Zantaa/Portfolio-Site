@@ -8,29 +8,42 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
   </head>
   <body
     class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300"
   >
-    <main class="p-6 max-w-5xl mx-auto space-y-12">
+    <main class="p-6 max-w-5xl mx-auto space-y-16">
       <!-- Hero Section -->
-      <section class="text-center space-y-4">
-        <h1 class="text-4xl font-bold">Zanta's Web Development</h1>
-        <p class="text-lg text-gray-600">Software Engineer | Web Developer</p>
+      <section class="text-center space-y-6 py-12">
+        <h1 class="text-5xl font-extrabold text-gray-900 dark:text-yellow-400">
+          Zanta's Web Development
+        </h1>
+        <p class="text-xl text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
+          Clean. Fast. Responsive. Let's bring your vision to life.
+        </p>
         <div class="space-x-4">
           <a
             href="#websites"
-            class="px-4 py-2 bg-blue-600 text-white rounded-xl"
+            class="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition transform"
             >View Websites</a
           >
           <a
             href="#projects"
-            class="px-4 py-2 bg-blue-600 text-white rounded-xl"
+            class="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition transform"
             >View Projects</a
           >
           <a
             href="Jacob_Zanchetta_Resume.pdf"
-            class="px-4 py-2 border border-gray-400 rounded-xl"
+            class="px-6 py-3 border border-blue-600 text-blue-600 dark:text-blue-300 font-semibold rounded-xl hover:bg-blue-50 dark:hover:bg-gray-800 transition"
             >Download Resume</a
           >
         </div>
@@ -39,10 +52,10 @@
       <!-- About Me Section -->
       <section
         id="aboutme"
-        class="bg-white dark:bg-gray-800 shadow rounded-xl p-6 space-y-4"
+        class="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-6 space-y-4"
       >
-        <h2 class="text-2xl font-semibold">About Me</h2>
-        <p class="text-gray-700">
+        <h2 class="text-3xl font-bold">About Me</h2>
+        <p class="text-gray-700 dark:text-gray-300">
           Hi, my name is Jacob aka Zanta's Web Dev — Im a passionate web
           developer and software engineer with a focus on crafting clean,
           responsive, and user-friendly experiences. With a strong foundation in
@@ -61,167 +74,183 @@
 
       <!-- Websites Section -->
       <section id="websites" class="space-y-6">
-        <h2 class="text-2xl font-semibold">Example Websites</h2>
+        <h2 class="text-3xl font-bold">Example Websites</h2>
 
-        <div class="bg-white shadow rounded-xl p-4">
-          <h3 class="text-xl font-bold">Business Landing Page</h3>
-          <p class="text-gray-600">
+        <div
+          class="bg-white dark:bg-gray-800 shadow hover:shadow-xl transition rounded-xl p-6"
+        >
+          <h3 class="text-xl font-semibold">Business Landing Page</h3>
+          <p class="text-gray-600 dark:text-gray-300">
             Clean and sleek business landing page design example.
           </p>
-          <div class="mt-2 space-x-3">
+          <div class="mt-2">
             <a
               href="https://zantaa.github.io/Business-Landing-page/"
-              class="px-3 py-1 bg-blue-600 text-white rounded"
-              >Website</a
+              class="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+              >View Site</a
             >
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-xl p-4">
-          <h3 class="text-xl font-bold">[Place Holder]</h3>
-          <p class="text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sequi
-            nesciunt quod molestias soluta voluptatem cumque illum facere
-            inventore ducimus, qui voluptatum est vel maiores nisi tempora in
-            delectus sint?
+        <!-- Placeholder cards -->
+        <div
+          class="bg-white dark:bg-gray-800 shadow hover:shadow-xl transition rounded-xl p-6"
+        >
+          <h3 class="text-xl font-semibold">[Placeholder Website]</h3>
+          <p class="text-gray-600 dark:text-gray-300">
+            A sample website showcasing responsive layout and visual components.
           </p>
-          <div class="mt-2 space-x-3">
-            <a
-              href="PlaceHolder"
-              class="px-3 py-1 bg-blue-600 text-white rounded"
-              >Website</a
-            >
-          </div>
+          <a
+            href="#"
+            class="inline-block mt-2 px-4 py-2 bg-blue-600 text-white rounded"
+            >View Site</a
+          >
         </div>
 
-        <div class="bg-white shadow rounded-xl p-4">
-          <h3 class="text-xl font-bold">[Place Holder]</h3>
-          <p class="text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sequi
-            nesciunt quod molestias soluta voluptatem cumque illum facere
-            inventore ducimus, qui voluptatum est vel maiores nisi tempora in
-            delectus sint?
+        <div
+          class="bg-white dark:bg-gray-800 shadow hover:shadow-xl transition rounded-xl p-6"
+        >
+          <h3 class="text-xl font-semibold">[Placeholder Website]</h3>
+          <p class="text-gray-600 dark:text-gray-300">
+            A sample website showcasing responsive layout and visual components.
           </p>
-          <div class="mt-2 space-x-3">
-            <a
-              href="PlaceHolder"
-              class="px-3 py-1 bg-blue-600 text-white rounded"
-              >Website</a
-            >
-          </div>
+          <a
+            href="#"
+            class="inline-block mt-2 px-4 py-2 bg-blue-600 text-white rounded"
+            >View Site</a
+          >
         </div>
       </section>
       <!-- End Websites Section -->
 
       <!-- Projects Section -->
       <section id="projects" class="space-y-6">
-        <h2 class="text-2xl font-semibold">Side Projects</h2>
+        <h2 class="text-3xl font-bold">Side Projects</h2>
 
-        <div class="bg-white shadow rounded-xl p-4">
-          <h3 class="text-xl font-bold">3D Arena Shooter</h3>
-          <p class="text-gray-600">
-            Designed arena stage with various obstacles along with a health and
-            power-up system to fight off enemies with a wondering AI movement.
-          </p>
-          <div class="mt-2 space-x-3">
-            <a
-              href="https://github.com/Zantaa/Zantaa.github.io"
-              class="px-3 py-1 bg-blue-600 text-white rounded"
-              >GitHub</a
-            >
-            <a
-              href="https://zantaa.github.io"
-              class="px-3 py-1 border border-gray-400 rounded"
-              >Play Demo</a
-            >
+        <div class="grid gap-6 md:grid-cols-2">
+          <div
+            class="bg-white dark:bg-gray-800 shadow hover:shadow-xl transition rounded-xl p-6"
+          >
+            <h3 class="text-xl font-semibold">3D Arena Shooter</h3>
+            <p class="text-gray-600 dark:text-gray-300">
+              Arena shooter with AI enemies, power-ups, and environmental
+              hazards built in Unity.
+            </p>
+            <div class="mt-2 space-x-3">
+              <a
+                href="https://github.com/Zantaa/Zantaa.github.io"
+                class="px-4 py-2 bg-blue-600 text-white rounded"
+                >GitHub</a
+              >
+              <a
+                href="https://zantaa.github.io"
+                class="px-4 py-2 border border-gray-400 dark:border-gray-300 rounded"
+                >Play Demo</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="bg-white dark:bg-gray-800 shadow hover:shadow-xl transition rounded-xl p-6"
+          >
+            <h3 class="text-xl font-semibold">Netflix Clone</h3>
+            <p class="text-gray-600 dark:text-gray-300">
+              Responsive UI using TMDB API with user auth and PHP backend. Built
+              with a 2-person team.
+            </p>
+            <div class="mt-2 space-x-3">
+              <a
+                href="https://github.com/Zantaa/Notflix-Website"
+                class="px-4 py-2 bg-blue-600 text-white rounded"
+                >GitHub</a
+              >
+              <a
+                href="https://www.youtube.com/watch?v=HP3fD2Nqmj8"
+                class="px-4 py-2 border border-gray-400 dark:border-gray-300 rounded"
+                >Live Demo</a
+              >
+            </div>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-xl p-4">
-          <h3 class="text-xl font-bold">Netflix Clone</h3>
-          <p class="text-gray-600">
-            A responsive Netflix-style UI built with XAMPP and PHPmyadmin.
-            Implements user auth, and dynamic movie data using the TMDB API.
-            Collaborated with a 2-person team using GitHub. Fully responsive
-            Netflix-style review site using styled componets.
-          </p>
-          <div class="mt-2 space-x-3">
-            <a
-              href="https://github.com/Zantaa/Notflix-Website"
-              class="px-3 py-1 bg-blue-600 text-white rounded"
-              >GitHub</a
-            >
-            <a
-              href="https://www.youtube.com/watch?v=HP3fD2Nqmj8&ab_channel=ianmoir(Oaklarus)"
-              class="px-3 py-1 border border-gray-400 rounded"
-              >Live Demo</a
-            >
+        <div class="grid gap-6 md:grid-cols-2">
+          <div
+            class="bg-white dark:bg-gray-800 shadow hover:shadow-xl transition rounded-xl p-6"
+          >
+            <h3 class="text-xl font-semibold">Up, Up, Boss</h3>
+            <p class="text-gray-600 dark:text-gray-300">
+              2D Platformer with multiple levels, moving platforms based on
+              players’ location, and boss event triggered after certain
+              conditions are met.
+            </p>
+            <div class="mt-2 space-x-3">
+              <a
+                href="https://github.com/Zantaa/2D-Platformer"
+                class="px-4 py-2 bg-blue-600 text-white rounded"
+                >GitHub</a
+              >
+              <a
+                href="https://zantaaa.itch.io/2d-platformer"
+                class="px-4 py-2 border border-gray-400 dark:border-gray-300 rounded"
+                >Play Demo</a
+              >
+            </div>
           </div>
-        </div>
 
-        <div class="bg-white shadow rounded-xl p-4">
-          <h3 class="text-xl font-bold">Up, Up, Boss</h3>
-          <p class="text-gray-600">
-            2D Platformer with multiple levels, moving platforms based on
-            players’ location, and boss event triggered after certain conditions
-            are met.
-          </p>
-          <div class="mt-2 space-x-3">
-            <a
-              href="https://github.com/Zantaa/2D-Platformer"
-              class="px-3 py-1 bg-blue-600 text-white rounded"
-              >GitHub</a
-            >
-            <a
-              href="https://zantaaa.itch.io/2d-platformer"
-              class="px-3 py-1 border border-gray-400 rounded"
-              >Play Demo</a
-            >
-          </div>
-        </div>
-
-        <div class="bg-white shadow rounded-xl p-4">
-          <h3 class="text-xl font-bold">Tic Tac Toe</h3>
-          <p class="text-gray-600">
-            Simple game of tic tac toe we all know and love...
-          </p>
-          <div class="mt-2 space-x-3">
-            <a
-              href="https://github.com/Zantaa/Tic-Tac-Toe"
-              class="px-3 py-1 bg-blue-600 text-white rounded"
-              >GitHub</a
-            >
-            <a
-              href="https://zantaaa.itch.io/tic-tac-toe"
-              class="px-3 py-1 border border-gray-400 rounded"
-              >Play Demo</a
-            >
+          <div
+            class="bg-white dark:bg-gray-800 shadow hover:shadow-xl transition rounded-xl p-6"
+          >
+            <h3 class="text-xl font-semibold">Tic Tac Toe</h3>
+            <p class="text-gray-600 dark:text-gray-300">
+              Simple game of tic tac toe we all know and love...
+            </p>
+            <div class="mt-2 space-x-3">
+              <a
+                href="https://github.com/Zantaa/Tic-Tac-Toe"
+                class="px-4 py-2 bg-blue-600 text-white rounded"
+                >GitHub</a
+              >
+              <a
+                href="https://zantaaa.itch.io/tic-tac-toe"
+                class="px-4 py-2 border border-gray-400 dark:border-gray-300 rounded"
+                >Play Demo</a
+              >
+            </div>
           </div>
         </div>
       </section>
       <!-- End Project Section -->
 
       <!-- Contact Section -->
-      <section class="text-center pt-12 border-t">
-        <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
-        <p>Email: zantaswebdev@gmail.com</p>
-        <p>
-          <a href="https://github.com/Zantaa" class="text-blue-600 underline"
-            >GitHub</a
-          >
-          |
+      <section
+        class="text-center pt-12 border-t border-gray-200 dark:border-gray-600"
+      >
+        <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+        <p class="text-lg">
+          Email:
           <a
-            href="https://www.linkedin.com/in/jacob-zanchetta-29122230a/"
-            class="text-blue-600 underline"
-            >LinkedIn</a
-          >
-          |
-          <a
-            href="https://www.fiverr.com/zantawebdev?public_mode=true"
-            class="text-blue-600 underline"
-            >Fiverr</a
+            href="mailto:zantaswebdev@gmail.com"
+            class="text-blue-500 hover:underline"
+            >zantaswebdev@gmail.com</a
           >
         </p>
+        <div class="mt-2 space-x-3">
+          <a
+            href="https://github.com/Zantaa"
+            class="text-blue-500 hover:underline"
+            >GitHub</a
+          >
+          <a
+            href="https://linkedin.com/in/jacob-zanchetta-29122230a"
+            class="text-blue-500 hover:underline"
+            >LinkedIn</a
+          >
+          <a
+            href="https://fiverr.com/zantawebdev"
+            class="text-blue-500 hover:underline"
+            >Fiverr</a
+          >
+        </div>
       </section>
       <!-- End Contact Section -->
     </main>
