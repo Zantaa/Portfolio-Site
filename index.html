@@ -15,10 +15,62 @@
     <style>
       body {
         font-family: "Inter", sans-serif;
-        background: linear-gradient(to right, #eef2f3, #8e9eab);
+        background: linear-gradient(to bottom right, #f5f3ef, #d8c3a5);
+        color: #3e3e3e;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #7b4f33;
+      }
+
+      .section,
+      .bg-white,
+      .dark\\:bg-gray-800 {
+        background-color: #fffaf5 !important;
+      }
+
+      .btn-primary {
+        background: #7b4f33;
+        color: white;
+      }
+
+      .btn-primary:hover {
+        background: #5c3925;
+      }
+
+      .btn-outline {
+        border: 2px solid #7b4f33;
+        color: #7b4f33;
+      }
+
+      .btn-outline:hover {
+        background: #7b4f33;
+        color: white;
+      }
+
+      a {
+        color: #7b4f33;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .card {
+        background-color: #fffaf5;
+        border: 1px solid #d8c3a5;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
       }
     </style>
   </head>
+
   <body
     class="scroll-smooth bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300"
   >
@@ -29,27 +81,28 @@
           Brother Bear Web Development
         </h1>
         <img
-          src="images\thumbnail\Brother Bear Web Development Final_Files-01.png"
+          src="images/thumbnail/Brother Bear Web Development Final_Files-01.png"
           alt="Developer illustration"
-          class="mx-auto w-80 sm:w-96 md:w-[500px]"
+          class="mx-auto w-80 sm:w-96 md:w-[500px] rounded-xl border-4 border-[#7B4F33] shadow-md"
         />
+
         <p class="text-xl text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
           Strong Code. Friendly Support.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#websites"
-            class="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition transform"
+            class="btn-primary px-6 py-3 font-semibold rounded-xl shadow-md hover:scale-105 transition transform"
             >View Websites</a
           >
           <a
             href="#projects"
-            class="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-xl shadow-lg hover:scale-105 transition transform"
+            class="btn-primary px-6 py-3 font-semibold rounded-xl shadow-md hover:scale-105 transition transform"
             >View Projects</a
           >
           <a
             href="Jacob_Zanchetta_Resume.pdf"
-            class="px-6 py-3 border border-blue-600 text-blue-600 dark:text-blue-300 font-semibold rounded-xl hover:bg-blue-50 dark:hover:bg-gray-800 transition"
+            class="btn-primary px-6 py-3 font-semibold rounded-xl shadow-md hover:scale-105 transition transform"
             >Download Resume</a
           >
         </div>
